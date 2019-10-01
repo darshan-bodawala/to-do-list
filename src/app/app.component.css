@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    padding: 1%;
+}
+
+.wrapper     * {
+    font-size: 14px;
+}
+
+p-dialog * {
+    font-size: 14px;
+}
+
+.heading {
+    padding: 1% 0;
+    margin-left: 0;
+}
+
+.heading span {
+    font-size: 16px !important;
+    font-weight: bold;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.pad-left-0 {
+    padding-left: 0.2%;
+}
+
+.pad-right-0 {
+    padding-right: 0.2%;
+}
+
+:host ::ng-deep .ui-paginator {
+    box-shadow: 0px 4px 4px lightgrey;
+}
+
+.overflow {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+}
+
+.btn {
+    color: #fff;
+    cursor: pointer !important;
+}
